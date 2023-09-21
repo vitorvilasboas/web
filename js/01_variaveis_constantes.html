@@ -10,10 +10,9 @@
 		<!-- lembrando que se pode colocar em qualquer lugar do documento html -->
 		<!-- por uma questão de organização coloca-se as funções javascript dentro da tag head -->
 		<script>
-			function displayHello() <!-- Declaração de função-->
-				{                   <!-- Java Script e Case Sensitive e diferencia maiusculo de minusculo>
-					document.getElementById("demo").innerHTML = "Hello World!!!"
-				}
+			function displayHello() { // Declaração de função - Case Sensitive              
+				document.getElementById("demo").innerHTML = "Hello World!!!"
+			}
 		</script>
 	
 	</head>
@@ -23,9 +22,7 @@
 		
 		<p id="demo"> Aqui fica um paragrafo. </p>
 		
-		<!-- displayHello é o codigo JavaScript, temos aqui um evento onclick
-             ou seja, quando o usuario clicar neste botão, a função displayHello
-			 será chamada -->
+		<!-- evento onclick (ao clicar no botão, chama displayHello() -->
 		<button type="button" onclick="displayHello()"> Hello World </button>
 	</body>
 
