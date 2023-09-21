@@ -384,18 +384,31 @@
 
 // INTEGRAÇÃO HTML
 
-// // window MÉTODO PAI DE TODOS
+
+// window é o objeto padrão - PAI DE TODOS
 // window.console.log("teste")
 // window.alert("teste")
 
 // document - representação da página como objeto
-// DOM - document object model (tags html pode ser transformado em objeto)
+// DOM - document object model (tags html pode ser transformadas em objetos js)
 // console.log(document.body)
 
-document.body.innerHTML = "teste" + document.body.innerHTML
+document.body.innerHTML = "teste" + document.body.innerHTML // insere 
+
+// acessar qualquer elemento a partir do body ou head
+let p1 = document.getElementById("p1")
+let cls_paragrafos = document.getElementsByClassName("paragrafo")
+
+// for (let p of cls_paragrafos){
+// 	console.log(p)
+// }
+
+let todos = document.getElementsByTagName("p")
+
+console.log(todos[0])
+
+// for (let p of todos){
+// 	console.log(p)
+// }
 
 
-
-
-
-// document.get
