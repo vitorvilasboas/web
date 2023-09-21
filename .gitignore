@@ -1,0 +1,12 @@
+.vscode/
+alunos/
+courses/
+media/
+php/
+js/
+front/
+# front/frameworks/bootstrap/*
+projects/
+# !projects/empresa/
+# !projects/infoblog/
+# !projects/shop/
