@@ -4,8 +4,8 @@ courses/
 media/
 php/
 js/
-front/
-# front/frameworks/bootstrap/*
+# front/
+front/frameworks/boot*/
 projects/
 # !projects/empresa/
 # !projects/infoblog/
