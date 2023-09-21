@@ -3,10 +3,4 @@ alunos/
 courses/
 media/
 php/
-js/
-# front/
-front/frameworks/boot*/
-projects/
-# !projects/empresa/
-# !projects/infoblog/
-# !projects/shop/
+css/frameworks/boot*/
