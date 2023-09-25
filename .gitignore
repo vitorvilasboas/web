@@ -1,3 +1,4 @@
+*
 .vscode/
 alunos/
 courses/
@@ -5,3 +6,5 @@ media/
 php/
 css/frameworks/boot*/
 projetos/
+!.gitinore
+!vscode_notes.html
