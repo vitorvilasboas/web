@@ -1,12 +1,9 @@
 .vscode/
 alunos/
 courses/
-css/
-css/frameworks/boot*/
-html/
-js/
-media/
-php/
-projetos/
+front/
+back/
+front/css/frameworks/boot*/
+# *
 # !.gitinore
 # !vscode_notes.html
